@@ -1,0 +1,60 @@
+{
+  // 文件排序
+  "explorer.sortOrder": "type",
+  // Editor settings
+  "editor.snippetSuggestions": "top",
+  "editor.autoIndent": "full",
+  "editor.codeLens": false,
+  "editor.cursorBlinking": "solid",
+  "editor.cursorSmoothCaretAnimation": true,
+  "editor.cursorStyle": "line",
+  "editor.fontSize": 16,
+  "editor.fontLigatures": true,
+  "editor.formatOnPaste": false,
+  "editor.formatOnType": false,
+  "editor.formatOnSave": true,
+  "editor.letterSpacing": 0.5,
+  "editor.lineHeight": 25,
+  "editor.minimap.enabled": false,
+  "editor.multiCursorModifier": "ctrlCmd",
+  "editor.suggestSelection": "first",
+  "editor.tabCompletion": "on",
+  "editor.tabSize": 2,
+  "editor.wordWrap": "on",
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "editor.codeActionsOnSave": {
+    // For ESLint
+    "source.fixAll.eslint": true,
+    // For stylelint
+    "source.fixAll.stylelint": true
+  },
+  // eslint
+  "eslint.format.enable": true,
+  "eslint.validate": ["javascript"],
+  // prettier 处理 js文件 以为不能有全局 prettier配置
+  "prettier.singleQuote": true,
+  "prettier.arrowParens": "avoid",
+  "prettier.printWidth": 130,
+  "prettier.semi": false,
+  "javascript.format.insertSpaceBeforeFunctionParenthesis": true,
+  // emmet
+  "emmet.triggerExpansionOnTab": true,
+  "emmet.showSuggestionsAsSnippets": true,
+  // stylelint
+  "stylelint.syntax": "scss",
+  "stylelint.validate": ["sass", "scss"],
+  // 以下配置大多是设置默认格式化程序
+  "[html]": {
+    "editor.defaultFormatter": "vscode.html-language-features"
+  },
+  "[scss]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[javascript]": {
+    "editor.defaultFormatter": "vscode.typescript-language-features"
+  },
+  "[json]": {
+    "editor.defaultFormatter": "vscode.json-language-features"
+  },
+  "cSpell.words": []
+}
